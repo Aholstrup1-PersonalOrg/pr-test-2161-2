@@ -1,10 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/aholstrup/workspace_compilationm/Actions/.Modules/settings.schema.json",
   "artifact": "////nextmajor",
   "useProjectDependencies": true,
   "useWorkspaceCompilation": true,
+  "workspaceCompilationParallelism": 100,
   "doNotPublishApps": true,
-  "doNotRunTests": true,
-  "templateSha": "b95985ebe852d2667920a8bd3fa48614ae30c300",
-  "templateUrl": "https://github.com/microsoft/AL-Go@aholstrup/workspace_compilationm"
+  "doNotRunTests": true
 }
